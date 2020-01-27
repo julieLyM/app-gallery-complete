@@ -4,11 +4,15 @@ const url = 'mongodb://localhost:27017';
 const list = [
   {
     image:
-      'https://production-eu01-dior.demandware.net/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dwbe9d58bd/assets/Y0027830/Y0027830_F002783999_E01_ZHC.jpg',
+      'https://images.unsplash.com/photo-1562792531-9dd3e7a1d891?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
   },
   {
-    image1:
-      'https://production-eu01-dior.demandware.net/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dwbe9d58bd/assets/Y0027830/Y0027830_F002783999_E01_ZHC.jpg',
+    image:
+      'https://images.unsplash.com/photo-1555930475-03b7d06a39da?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1055&q=80',
+  },
+  {
+    image:
+      'https://images.unsplash.com/photo-1557211228-dcd32da125c3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60',
   },
 ];
 

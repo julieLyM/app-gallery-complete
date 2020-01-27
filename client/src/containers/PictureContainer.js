@@ -16,16 +16,16 @@ export class PictureContainer extends React.Component {
   render() {
     const { pictures } = this.props;
     return (
-      <div style={{ display: 'flex' }}>
+      <>
         <h1>gallery</h1>
-        <div style={{ flex: '1 1 150px' }}>
-          {pictures.map(picture => (
-            <div style={{ width: '100%' }}>
-              <Gallery picture={picture} />
+        <div style={{ display: 'flex' }}>
+          {pictures.map(element => (
+            <div style={{ flex: '1 1 150px', margin: '10px' }}>
+              <img style={{ maxWidth: '100%' }} src={element.image} />
             </div>
           ))}
         </div>
-      </div>
+      </>
     );
   }
 }
